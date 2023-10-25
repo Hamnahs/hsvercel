@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- style-switcher style -->
+  <link rel="stylesheet" href="css/themeColors/c1.css" class="alternate-style" title="c1" disabled>
+  <link rel="stylesheet" href="css/themeColors/c2.css" class="alternate-style" title="c2" disabled>
+  <link rel="stylesheet" href="css/themeColors/c3.css" class="alternate-style" title="c3" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <link rel="stylesheet" href="style.css" class="css">
+  <title>HS photography</title>
+</head>
+
+<body>
+  <header id="header" class="header d-flex align-items-center fixed-top gy-3">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <img src="photos/logo.jpg" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Display</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-youtube"></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show fa fa-bars"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none fa fa-times"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <section class="panel mx-sm-4 my-sm-5">
+    <section class="hero">
+      <div id="carouselslides" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner py-sm-4 my-3" style="height: 80vh;">
+          <div class="carousel-item active carousel-image">
+            <video class="img-fluid" autoplay loop muted>
+              <source src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="carousel-item carousel-image">
+            <video class="img-fluid" autoplay loop muted>
+              <source src="https://mdbcdn.b-cdn.net/img/video/forest.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="carousel-item carousel-image">
+            <video class="img-fluid" autoplay loop muted>
+              <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselslides" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselslides" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+
+
+  <section>
+    <div class=" text-center p-5">
+      <h1>Hello! We are team of Photographers <br>
+        based in Pakistan working over decade.</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 col-12 text-center">
+          <div class="content position-relative">
+            <div>
+              <h4>"The photographer becomes a storyteller, capturing the emotions that fill the air."</h4>
+              <p>Every click of the camera is an invitation to laughter, and tears of that special day.</p>
+            </div>
+          </div>
+          <div class="animatediv p-4" style="color: aliceblue;">
+            <h6>"In the garden of our experiences, the flowers of truth bloom, each petal an affirmation of our unique
+              journey."</h6>
+            <i class="fa-solid fa-arrow-down fa-lg"></i>
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- 
+  <section class="container-fluid mt-5 pt-5 parallax d-flex justify-content-center pb-0"
+    style="background-color: var(--bg-black-100);">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 col-sm-8 order-lg-2 d-flex justify-content-center align-items-center position-relative">
+        <img class="img-fluid position-absolute" src="photos/fam.png" alt="">
+
+        <img class="img-fluid position-absolute top-0 start-50" src="photos/bg.png" alt="">
+      </div>
+      <div class="col-lg-3 col-sm-8 order-lg-1 text-right">
+        <h4>"In your smile, I found the brightest star in my universe."</h4>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+  <div id="banner">
+    <div id="bannertext">
+      <h1 style="  color: white;">
+        When Yes! means forever</h1>
+      <p style="  color: white;">Finest webdesign since 1870</p>
+    </div>
+  </div>
+
+
+  <section class="testimonial-section" style="background-color: var(--bg-black-100)">
+    <div class=" text-center pt-5">
+      <h1 style="font-weight: bold;">"CLIENTS LOVE"</h1>
+    </div>
+    <div class="row  p-5">
+      <div class="col"></div>
+      <div class="col" style="border-left: 2px solid var(--text-black-700); height: 100px;"></div>
+    </div>
+
+
+    <div class="container pb-5">
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="testimonial border border-3 mt-sm-3" style="height: 300px;">
+            <div class="testimonial-content mt-5 m-auto pt-5 w-75">
+              <p>"Working with HS Photography was an incredible experience. Their photography skills are outstanding,
+                and they captured our special moments beautifully."</p>
+            </div>
+            <div class="testimonial m-auto w-75">
+              <h5>- Happy Client 1</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial border border-3 mt-sm-3" style="height: 300px;">
+            <div class="testimonial-content mt-5 m-auto pt-5 w-75">
+              <p>"We couldn't be happier with the photographs from our special day. HS Photography's team is
+                professional and truly talented."</p>
+            </div>
+            <div class="testimonial m-auto w-75">
+              <h5>- Satisfied Customer 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial border border-3 mt-sm-3" style="height: 300px;">
+            <div class="testimonial-content mt-5 m-auto pt-5 w-75">
+              <p>"The creativity and attention to detail in their work is outstanding. We highly recommend HS
+                Photography for any occasion!"</p>
+            </div>
+            <div class="testimonial m-auto w-75">
+              <h5>- Delighted Client 3</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 
+  <div class="textcontent text-center pt-5">
+    <h2>The Photographer's Tale</h2>  
+    <h5>Congratulations on your upcoming wedding! It's an incredibly exciting time for you. As photography team
+      working
+      for more than 15 years, I have the privilege of capturing beautiful, stylish, and unobtrusive
+      images of couples' special days. Our approach involves letting you relax and be yourselves, without
+      interrupting or posing for the camera. This allows me to capture honest, natural, and emotive photographs.</h5>
+  </div> -->
+
+
+
+
+
+
+  <center>
+    <section class="inquire" style="width: 95%;">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-8 ">
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/265/3264/2448.jpg?hmac=rfUdPrULxf4Rgf_pVL613jEH5tzygBpgAlZNsBSmv9w"
+                class="img-fluid" style="width: 100%; height:auto;">
+            </div>
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/259/3264/2448.jpg?hmac=9Tj9pBJLZklZTbgkq4eQrUNO6zjYKicykFUq-PgV21M"
+                class="img-fluid" style="width: 100%; height:auto; transform: translateX(-30%);"></div>
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/271/4608/3072.jpg?hmac=KDcl52N6YZhhEOtJw5_z2H8Cc6I209G5w97Y7gn-Ks4"
+                class="img-fluid" style="width: 100%; height:auto;">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+            <center>
+              <small>
+                <p class="my-4"> Reach out</p>
+              </small>
+              <h2 class="my-4">Inquire With Us
+              </h2>
+              <small>
+                <p class="my-4 w-50" style="line-height: 30px;letter-spacing: 1px; font-size: large;">We take a limited
+                  number of weddings each year to make sure we're the best fit for every
+                  couple and allow
+                  us capacity to fully invest care, intention, and excitement into your day! To reserve your date, start
+                  here
+                  and share your story with us!
+                </p>
+              </small>
+              <a href="contact.html" class="btn btn-primary my-4">Inquire Now</a>
+            </center>
+          </div>
+
+          <div class="col-lg-3 col-8 ">
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/259/3264/2448.jpg?hmac=9Tj9pBJLZklZTbgkq4eQrUNO6zjYKicykFUq-PgV21M"
+                class="img-fluid" style="width: 100%; height:auto;">
+            </div>
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/260/1500/2250.jpg?hmac=oAE-DN2FU-a01K2Hb0i9zUjETukCylKJY67ipUEUPl0"
+                class="img-fluid" style="width: 100%; height:auto; transform: translateX(30%); margin-top : -40px;">
+            </div>
+            <div class="row"><img
+                src="https://fastly.picsum.photos/id/257/5000/3333.jpg?hmac=B0TMVZJOXC_cBK0gZj5EzCBnCwoBMEyvt9t8AbJDkdA"
+                class="img-fluid" style="width: 100%; height:auto;  margin-top : -40px; z-index: 1;">
+            </div>
+          </div>
+
+
+          <!-- 
+          <div class="col-lg-3 col-8">
+            <div class="row"><img src="https://fastly.picsum.photos/id/259/3264/2448.jpg?hmac=9Tj9pBJLZklZTbgkq4eQrUNO6zjYKicykFUq-PgV21M" class="img-fluid"
+                style="width: 100%; height:auto;">
+            </div>
+            <div class="row"><img src="https://fastly.picsum.photos/id/260/1500/2250.jpg?hmac=oAE-DN2FU-a01K2Hb0i9zUjETukCylKJY67ipUEUPl0" class="img-fluid"
+                style="width: auto; height:auto; transform: translateX(20%);"></div>
+
+            <div class="row"><img src="https://fastly.picsum.photos/id/257/5000/3333.jpg?hmac=B0TMVZJOXC_cBK0gZj5EzCBnCwoBMEyvt9t8AbJDkdA" class="img-fluid"
+                style="width: 100%; height:auto;">
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+  </center>
+
+
+  <section class="featured" style="background-color: var(--bg-black-100)">
+    <div class="container" style="height: auto;">
+      <div class="row" style="padding: 10px; ">
+        <div style="justify-content: center; align-items: center; display: flex;">
+          <h3 class="text-center" style=" border-bottom:1px solid black; padding: 10px;">Fetured In!</h3>
+        </div>
+        <div class="row">
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px"
+              src="photos/damas.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px"
+              src="photos/ali.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px"
+              src="photos/faiza.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/glolly.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/glolly.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/gold.jpg" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/MMstudio.png" alt=""></div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/maya.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/sheh.png" alt="">
+          </div>
+          <div class="col-3"> <img class="img-fluid" style="padding: 20px 0; height: auto; width:130px;"
+              src="photos/page3.png" alt="">
+          </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h5 class="text-center my-3">Follow us on instagram</h5>
+      <div class="row">
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%; height: auto;" src="https://picsum.photos/id/296/3072/2048" alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;"
+            src="https://fastly.picsum.photos/id/309/3872/2592.jpg?hmac=mpv4pTnYv_x4vdrsXOUvytC19nhEPMgp56sK3Ize-Vo"
+            alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;"
+            src="https://fastly.picsum.photos/id/305/4928/3264.jpg?hmac=s2FLjeAIyYH0CZl3xuyOShFAtL8yEGiYk31URLDxQCI"
+            alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;"
+            src="https://fastly.picsum.photos/id/288/3888/2592.jpg?hmac=pTLH4CMKuWqYGdf3jG4X_QBlbsiBuH7KOOnQsiijPks"
+            alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;"
+            src="https://fastly.picsum.photos/id/301/4752/3168.jpg?hmac=dIrKsPA8tl4UMnxGn-DOdnez3VS9mISb4_dYwLRnRps"
+            alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;"
+            src="https://fastly.picsum.photos/id/289/2800/1508.jpg?hmac=RRpZ65go4XFZxPnHs8RAQG4DJ-Tf-VD61PctWFpwDRc"
+            alt=""></div>
+        <div class="col" style="border: 4px dashed var(--text-black-700);"> <img class="img-fluid"
+            style="padding:0;width:100%;" src="https://picsum.photos/id/328/3264/2448" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section>
+    <!-- Footer -->
+    <footer class=" text-center ">
+      <!-- Grid container -->
+      <div class="container-fluid p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+
+        </section>
+        <!-- Section: Social media -->
+
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4">connect with me</h6>
+
+              <p>Just a little sum up for your ease. Connct with us for your
+                special
+                days and allow us to capture them.</p>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4">recognization</h6>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="">Camon</a>
+                </li>
+                <li>
+                  <a href="#!" class="">lux style awards</a>
+                </li>
+                <li>
+                  <a href="#!" class="">comon</a>
+                </li>
+                <li>
+                  <a href="#!" class="">camon</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4">past clients</h6>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="">page 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="">page 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="">page 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="">page 3</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4">Skills and services</h6>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="">Wedding Photography</a>
+                </li>
+                <li>
+                  <a href="#!" class="">Couple shoots</a>
+                </li>
+                <li>
+                  <a href="#!" class="">cinematography</a>
+                </li>
+                <li>
+                  <a href="#!" class="">accessories</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center">
+        © 2023 Copyright:
+        <a class="" href="">hsphotography.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
+
+
+  <!-- Dark/Light Mode Switcher -->
+  <div class="style-switcher">
+    <div class="day-night s-icon">
+      <i class="fas fa-moon"></i>
+    </div>
+  </div>
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle-btn');
+    const DropDownMenu = document.querySelector('.dropdown-menu');
+
+    toggleBtn.onclick = function () {
+      DropDownMenu.classList.toggle('open');
+    };
+  </script>
+  <script src="js/style-switcher.js"></script>
+  <script src="style.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
