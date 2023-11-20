@@ -31,6 +31,21 @@ i {
   color: var(--text-black-900);
 }
 
+button
+{
+  background-color: var(--gold-700);
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 150px;
+  padding: 5px 15px;
+}
+button a
+{
+  color: white;
+  font-size: 0.8rem;
+}
+
 body {
   width: 100%;
   height: auto;
