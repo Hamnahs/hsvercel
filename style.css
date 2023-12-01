@@ -125,7 +125,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 0.8rem 0;
-  background-color: var(--bg-black-100);
+  background-color: var(--gold-700);
 }
 
 .header .logo {
@@ -170,12 +170,12 @@ header .logo h1:hover {
   }
 }
 
-.header .header-social-links {
+.header-social-links {
   padding-right: 15px;
 }
 
-.header .header-social-links a {
-  color: var(--bg-black-100);
+.header-social-links a i{
+  color: white;
   padding-left: 15px;
   display: inline-block;
   line-height: 0px;
@@ -183,9 +183,8 @@ header .logo h1:hover {
   font-size: 16px;
 }
 
-.header .header-social-links a:hover {
-  color: var(--red-color);
-  font-size: 18px;
+.header .header-social-links a i:hover {
+   color:rgb(206, 204, 185);
 }
 
 @media (max-width: 575px) {
@@ -230,22 +229,10 @@ header .logo h1:hover {
     transition: 0.3s;
   }
 
-  .navbar a i,
-  .navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-    transition: 0.3s;
-  }
-
-  .active {
-    color: var(--text-black-900);
-  }
-
   .navbar a:hover,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--text-black-700);
+    color: white;
   }
 
   .navbar .dropdown ul {
@@ -258,7 +245,7 @@ header .logo h1:hover {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--bg-black-50);
+    /* background: var(--bg-black-50); */
     transition: 0.3s;
     border-radius: 4px;
   }
@@ -276,14 +263,14 @@ header .logo h1:hover {
 
   .navbar .dropdown ul a i {
     font-size: 12px;
-    color: var(--text-black-900);
+    color: white;
 
   }
 
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--red-color);
+    color: var(--gold-700);
   }
 
   .navbar .dropdown:hover>ul {
@@ -339,12 +326,12 @@ header .logo h1:hover {
     z-index: 9997;
   }
 
-  .navbar ul {
+  .navbar ul li a{
     position: absolute;
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: var(--bg-black-50);
+    color: white;
     border: 1px solid var(--text-black-700);
     overflow-y: auto;
     transition: 0.3s;
@@ -361,25 +348,17 @@ header .logo h1:hover {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
-    color: var(--text-black-900);
+    color: white;
     letter-spacing: 1px;
     white-space: nowrap;
     transition: 0.3s;
   }
 
-  .navbar a i,
-  .navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-    /* color: var(--text-black-900); */
-  }
 
   .navbar a:hover,
-  .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--red-color);
+    color:rgb(206, 204, 185);
   }
 
   .navbar .dropdown ul,
@@ -431,17 +410,30 @@ header .logo h1:hover {
     content: "";
     position: fixed;
     inset: 0;
-    background: var(--bg-black-100);
+    /* background: var(--bg-black-100); */
     z-index: 9996;
   }
 }
 
 footer {
-  background-color: var(--bg-black-100);
+  background-color: var(--gold-700);
   margin: 2rem;
-  border: 1px solid var(--text-black-900);
-  border-top: 20%;
-  color: var(--bg-black-100);
+  color: white;
+}
+footer a i, footer h6
+{
+  color: white;
+}
+footer a ,footer p
+{
+  color:rgb(206, 204, 185);
+}
+
+
+footer a i:hover
+{
+  background-color: white;
+  color: var(--gold-700);
 }
 
 .btn-outline {
